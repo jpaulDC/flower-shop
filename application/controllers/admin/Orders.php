@@ -57,7 +57,7 @@ class Orders extends CI_Controller
 
         redirect('admin/orders/view/' . $order_id);
     }
-    // application/controllers/admin/Orders.php
+    // application/controllers/admin/Orders.phpd
 
     // public function delete($id)
     // {
