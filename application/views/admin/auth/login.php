@@ -204,11 +204,7 @@
             <a href="<?= base_url() ?>"><i class="fas fa-arrow-left"></i> Back to Website</a>
         </div>
 
-        <div class="hint-box">
-            <strong>Default credentials:</strong><br>
-            Email: admin@flowershop.com<br>
-            Password: admin123
-        </div>
+        
 
     </div>
 </body>

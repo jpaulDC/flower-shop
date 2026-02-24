@@ -168,7 +168,7 @@
             <!-- Logo -->
             <a href="<?= base_url() ?>" class="logo">
                 <i class="fas fa-seedling"></i>
-                Bloom & Blossom
+                Byhappiest Flower
             </a>
             
             <!-- Navigation Menu -->

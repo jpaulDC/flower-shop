@@ -5,13 +5,13 @@
         align-items: center;
         margin-bottom: 30px;
     }
-    
+
     .filter-tabs {
         display: flex;
         gap: 10px;
         margin-bottom: 20px;
     }
-    
+
     .filter-tab {
         padding: 10px 20px;
         background: white;
@@ -23,30 +23,30 @@
         transition: all 0.3s;
         text-decoration: none;
     }
-    
+
     .filter-tab.active,
     .filter-tab:hover {
         background: #4a8f5f;
         color: white;
         border-color: #4a8f5f;
     }
-    
+
     .data-table {
         background: white;
         border-radius: 12px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
         overflow: hidden;
     }
-    
+
     table {
         width: 100%;
         border-collapse: collapse;
     }
-    
+
     table thead {
         background: #f8f9fa;
     }
-    
+
     table th {
         padding: 18px;
         text-align: left;
@@ -55,23 +55,23 @@
         font-size: 14px;
         border-bottom: 2px solid #e0e0e0;
     }
-    
+
     table td {
         padding: 18px;
         border-bottom: 1px solid #f0f0f0;
         color: #666;
     }
-    
+
     table tbody tr:hover {
         background: #f8f9fa;
     }
-    
+
     .order-id {
         font-weight: 600;
         color: #2d3e50;
         font-size: 16px;
     }
-    
+
     .status-badge {
         display: inline-block;
         padding: 6px 12px;
@@ -79,27 +79,27 @@
         font-size: 12px;
         font-weight: 600;
     }
-    
+
     .status-pending {
         background: #fff3cd;
         color: #856404;
     }
-    
+
     .status-confirmed {
         background: #d1ecf1;
         color: #0c5460;
     }
-    
+
     .status-delivered {
         background: #d4edda;
         color: #155724;
     }
-    
+
     .status-cancelled {
         background: #f8d7da;
         color: #721c24;
     }
-    
+
     .btn-view {
         background: #4a8f5f;
         color: white;
@@ -113,7 +113,7 @@
         gap: 5px;
         transition: all 0.3s;
     }
-    
+
     .btn-view:hover {
         background: #3d7850;
     }
@@ -164,6 +164,7 @@
                                 <i class="fas fa-eye"></i> View
                             </a>
                         </td>
+
                     </tr>
                 <?php endforeach; ?>
             </tbody>
